@@ -4,9 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>JokeAPI</title>
   </head>
   <body>
-    <p>Teste</p>
+    <main>
+      <section class="interface">
+        <h1>Get a joke</h1>
+        <div class="app">
+          <div class="forms">
+            <form action="/" id="settings" method="post">
+              <legend>Choose categories</legend>
+              <br />
+              <input type="checkbox" name="Programming" class="checkbox" />
+              <label>Programming</label>
+              <input type="checkbox" name="Misc" class="checkbox" />
+              <label>Misc</label>
+              <input type="checkbox" name="Pun" class="checkbox" />
+              <label>Pun</label>
+              <br />
+              <br />
+              <br />
+              <legend>Choose joke type</legend>
+              <br />
+              <input type="checkbox" name="Single" class="checkbox" />
+              <label>Single part</label>
+              <input type="checkbox" name="Two" class="checkbox" />
+              <label>Two part</label>
+              <br />
+              <br />
+              <br />
+              <button type="submit" class="submitButton" form="settings">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="getjoke.js"></script>
   </body>
 </html>

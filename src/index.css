@@ -1,0 +1,41 @@
+body {
+  background-color: blanchedalmond;
+  
+  
+}
+
+legend{
+  font-size: 1.3rem;
+}
+
+
+.interface{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  
+}
+
+.forms{
+  display: flex;
+  margin-top: -2.5rem;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+}
+
+
