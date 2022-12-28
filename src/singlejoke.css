@@ -1,0 +1,37 @@
+body {
+  background-color: blanchedalmond;
+  
+  
+}
+
+button{
+  width: 6rem;
+  margin-top: 5rem;
+}
+
+.interface{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  word-break: break-word;
+}
+
+.joke-content{
+  text-align: center;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
