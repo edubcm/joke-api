@@ -3,14 +3,13 @@ body {
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
   
-}
-
-legend{
-  font-size: 1.3rem;
+  
 }
 
 button{
+  width: 6rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 footer{
@@ -33,21 +32,17 @@ footer{
 
 .app{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 25rem;
-  height: 20rem;
+  height: auto;
   background-color: white;
   border-radius: 1rem;
-  
+  word-break: break-word;
 }
 
-.forms{
-  display: flex;
-  margin-top: -2.5rem;
-  flex-direction: column;
-  gap: 3rem;
-  position: relative;
+.error-message{
+  text-align: center;
+  margin: 2rem 1rem 1rem 1rem;
 }
-
 
